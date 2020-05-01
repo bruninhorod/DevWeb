@@ -1,0 +1,50 @@
+.alo{
+    border-radius: 15px; ; 
+    padding: 5px; 
+    color: white; 
+    margin:0px 10px; 
+    background-color: Black;
+    
+}
+
+.opcoes{
+    margin-top: -65px;
+    margin-right: 30px;
+}
+
+hr{
+  margin-top: 50px;
+  border-color: black;
+}
+
+body{
+    background: url(green.png) ;
+  }
+
+H1{ 
+    font-size: 50px;
+    margin-top: -90px;
+    text-align: center 
+}
+
+.imga{
+    margin-top: 20px;
+}
+
+
+h2{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 150px;
+
+}
+
+.texto{
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.imagem2{
+    margin-left: 1200px;
+    margin-top: -300px;
+}
