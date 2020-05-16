@@ -3,11 +3,11 @@ function extractTitle(i) {
 }
 
 function extractDiscount(i) {
-    return $(".promotion__tag-discount")i].innerText;
+    return $(".promotion__tag-discount")[i].innerText;
 }
 
-function extractPrice(iy) {
-    return $(".promotion-price")[].innerText;
+function extractPrice(i) {
+    return $(".promotion-price")[i].innerText;
 }
 
 var jsonObj = [{}];
@@ -15,8 +15,8 @@ var jsonObj = [{}];
 var cards = $(".product-card__link").length;
 for (var cont = 0; cont < cards; cont++) {
     var title = extractTitle(cont);
-    var discount = extrairDiscount(cont);
-    var price = extrairPrice(cont);
+    var discount = extractDiscount(cont);
+    var price = extractPrice(cont);
 
     item = {};
     item["title"] = title;
